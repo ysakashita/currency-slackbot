@@ -15,7 +15,7 @@ spec:
           restartPolicy: Never
           containers:
           - name: cron-currency-slackbot
-            image: ysakashita/currency-slackbot
+            image: ysakashita/currency-slackbot:version-0.1
             envFrom:
             - secretRef:
                 name: currency-slackbot
