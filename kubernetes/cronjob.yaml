@@ -12,6 +12,8 @@ spec:
     spec:
       template:
         spec:
+          nodeSelector:
+            kubernetes.io/arch: amd64
           restartPolicy: Never
           containers:
           - name: cron-currency-slackbot
