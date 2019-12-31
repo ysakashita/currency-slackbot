@@ -25,7 +25,7 @@ $ export API_ACCESS_KEY='<API access key of currencylayer>'
 2. Execute currency-bot.py
 
 ```bash
-$ pyython py/currency-bot.py
+$ python py/currency-bot.py
 ```
 
 If your python3.x environment don't install slackclient package, you should install it.
