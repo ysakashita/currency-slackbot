@@ -3,7 +3,7 @@ kind: CronJob
 metadata:
   name: cron-currency-slackbot
 spec:
-  schedule: "0 0 * * *"
+  schedule: "1/60 * * * *"
   startingDeadlineSeconds: 60
   concurrencyPolicy: Forbid
   successfulJobsHistoryLimit: 1
